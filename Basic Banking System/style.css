@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	
+	font-family:sans-serif;
+}
+#nav-bar
+{	
+	float: left;
+		color: #fff;
+}
+.nav-link:hover{
+    background-color:rgb(32, 171, 230);
+}
+.navbar
+{
+	
+    padding: 0 !important;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6868!important;
+    
+}.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6868!important;
+    
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:rgb(19, 12, 12);
+	font-size:30px !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: center;
+background-image: linear-gradient(rgb(106, 74, 13),rgb(140, 125, 77));
+color:#fff;
+padding-top:5%;	
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5f6868!important;
+    
+}
+
+
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+}
+ #features
+ {
+	background-image:url(https://previews.123rf.com/images/radionphoto/radionphoto1804/radionphoto180400068/102247941-wallpaper-closeup-series-american-money-5-10-20-50-new-100-dollar-bill-macro-background-pile-us-bank.jpg);
+	size: 100px;
+	position: relative;
+	top: -0.5%;
+	background-repeat: no-repeat;
+    padding:100% 15%;
+	width: 100%;
+     text-align: center;
+     padding: 10% 15%;
+     background-position: center; 
+
+	
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background-image:radial-gradient(pink,white);
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#044e3d;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#7ae7f8,#f7c0f6)
+	
+}
+/* Action*/
+  #action{
+    background-color:rgb(201, 71, 11);
+    padding: 2.5% 2%;
+    text-align:center;
+    line-height: 1.5;
+    color: rgb(67, 13, 103);	
+		  }
+  
+   
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10%;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  text-align: center;
+  text-decoration:rgb(56, 57, 54);
+  border-radius: 20%;
+ 
+}
+.fa-github{
+	color: black;
+}
+.fa-linkedIn{
+	color: blue;
+}
+#footer{
+	background-image: linear-gradient(rgb(140, 125, 77),rgb(106, 74, 13));
+    color:#fff;
+    padding: 1% 1%;
+    text-align:center;
+	height: 21%;
+	
+     }

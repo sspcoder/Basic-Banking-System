@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+#nav-bar
+{
+	
+	float: left;
+}
+.nav-link:hover{
+    background-color:rgb(32, 171, 230);
+}
+.navbar
+{
+	
+    padding: 0 !important;
+}
+.nav-link:hover
+{
+    background-color: rgb(130, 191, 245);
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+background-color:white;
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color:rgb(83, 135, 119)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(20, 20, 24)!important;
+}
